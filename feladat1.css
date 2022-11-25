@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border-bottom: black solid 1px;
+    min-width: 80px;
+    height: 1.5em;
+}
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tbody th:nth-child(2){
+    border-right: black solid 1px;
+}
+thead th:nth-child(2){
+    border-right: black solid 1px;
+}
+
+thead{
+    height: 50px;
+    background-color: cadetblue;
+}
+
+caption{
+    font-size: 2em;
+    font-weight: bold;
+}

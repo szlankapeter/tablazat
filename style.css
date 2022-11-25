@@ -1,0 +1,31 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    border: black solid 1px;
+    min-width: 80px;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+
+thead th{
+    background-color: rgb(48, 46, 46);
+    color: beige;
+}
+
+@media screen and (max-width: 500px){
+    article{
+        overflow-x: scroll;
+    }
+}
+
+.osszevont{
+    background-color: beige;
+    text-align: center;
+}
+caption{
+    border: 1px black solid;
+}

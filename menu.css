@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    
+}
+li{
+    margin-right: 35px;
+    list-style: none;
+}
+
+a{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: .5s;
+}
+
+a:hover{
+    color: gray;
+}
